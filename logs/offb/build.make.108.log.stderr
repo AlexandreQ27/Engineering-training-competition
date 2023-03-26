@@ -1,0 +1,7 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/node_flyput.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Koffb/Circle.h: 没有那个文件或目录
+ #include [01;31m[K"offb/Circle.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/node_flyput_node.dir/src/node_flyput.cpp.o] Error 1
+make[1]: *** [CMakeFiles/node_flyput_node.dir/all] Error 2
+make: *** [all] Error 2

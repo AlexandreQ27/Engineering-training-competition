@@ -1,0 +1,10 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:[m[K In function ‘[01m[Kvoid is_ready()[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:117:10:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [[01;31m[K-fpermissive[m[K]
+  return -[01;31m[K1[m[K;
+          [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:141:28:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+  cout <<"新入一行 : "; [01;31m[K<<[m[K line << endl;
+                            [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/mydemo_node.dir/src/mydemo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mydemo_node.dir/all] Error 2
+make: *** [all] Error 2

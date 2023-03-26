@@ -1,0 +1,3 @@
+<launch>
+            <param name="test" type="int" value="666"/>
+</launch>

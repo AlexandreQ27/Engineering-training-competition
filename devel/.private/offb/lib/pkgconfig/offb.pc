@@ -1,0 +1,8 @@
+prefix=/home/qyb/catkin_ws/devel/.private/offb
+
+Name: offb
+Description: Description of offb
+Version: 0.0.0
+Cflags: -I/home/qyb/catkin_ws/devel/.private/offb/include -I/home/qyb/catkin_ws/src/offb/include
+Libs: -L${prefix}/lib 
+Requires: 

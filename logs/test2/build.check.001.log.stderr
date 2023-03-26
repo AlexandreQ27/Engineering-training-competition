@@ -1,0 +1,16 @@
+[31m[1mCMake Error[0m at /home/qyb/catkin_ws/src/test2/CMakeLists.txt:206 (add_executable):
+  Cannot find source file:
+
+    src/face_detector.py
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/qyb/catkin_ws/src/test2/CMakeLists.txt:208 (add_dependencies):
+  The dependency target "test2_gencpp" of target "test2_node" does not exist.
+
+
+CMake Error: CMake can not determine linker language for target: test2_node
+CMake Error: Cannot determine link language for target "test2_node".
+make: *** [cmake_check_build_system] Error 1

@@ -1,0 +1,16 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:60:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KOffboardControl Offb_[m[K’
+     OffboardControl [01;31m[KOffb_[m[K;
+                     [01;31m[K^~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:50:21:[m[K [01;36m[Knote: [m[K‘[01m[KOffboardControl Offb_[m[K’ previously declared here
+     OffboardControl [01;36m[KOffb_[m[K;
+                     [01;36m[K^~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:61:19:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kros::Rate rate[m[K’
+     ros::Rate rate[01;31m[K([m[K20.0);
+                   [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:45:15:[m[K [01;36m[Knote: [m[K‘[01m[Kros::Rate rate[m[K’ previously declared here
+     ros::Rate [01;36m[Krate[m[K(20.0);
+               [01;36m[K^~~~[m[K
+make[2]: *** [CMakeFiles/stay_high_node.dir/src/stay_high.cpp.o] Error 1
+make[1]: *** [CMakeFiles/stay_high_node.dir/all] Error 2
+make: *** [all] Error 2

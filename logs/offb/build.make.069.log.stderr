@@ -1,0 +1,80 @@
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:16:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+ #define pi  [01;31m[K3[m[K.1415926
+             [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.hpp:57:0[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn.hpp:76[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/include/opencv2/opencv.hpp:62[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:8[m[K:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:103:30:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+         AutoBuffer<int64, 1> [01;31m[K*[m[Kpi;
+                              [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:16:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+ #define pi  [01;31m[K3[m[K.1415926
+             [01;31m[K^[m[K
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:[m[K In constructor ‘[01m[Kcv::dnn::experimental_dnn_34_v11::DictValue::DictValue(bool)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:16:13:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+ #define pi  [01;31m[K3[m[K.1415926
+             [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:16:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before numeric constant
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:[m[K In constructor ‘[01m[Kcv::dnn::experimental_dnn_34_v11::DictValue::DictValue(int64)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:16:13:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+ #define pi  [01;31m[K3[m[K.1415926
+             [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:16:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before numeric constant
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:[m[K In constructor ‘[01m[Kcv::dnn::experimental_dnn_34_v11::DictValue::DictValue(int)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:16:13:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+ #define pi  [01;31m[K3[m[K.1415926
+             [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:16:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before numeric constant
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:[m[K In constructor ‘[01m[Kcv::dnn::experimental_dnn_34_v11::DictValue::DictValue(unsigned int)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:16:13:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+ #define pi  [01;31m[K3[m[K.1415926
+             [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:16:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before numeric constant
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:[m[K In static member function ‘[01m[Kstatic cv::dnn::experimental_dnn_34_v11::DictValue cv::dnn::experimental_dnn_34_v11::DictValue::arrayInt(TypeIter, int)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:16:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+ #define pi  [01;31m[K3[m[K.1415926
+             [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:16:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before numeric constant
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:[m[K In member function ‘[01m[KT cv::dnn::experimental_dnn_34_v11::DictValue::get(int) const [with T = long int][m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:16:13:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kdouble[m[K’)
+ #define pi  [01;31m[K3[m[K.1415926
+             [01;31m[K^[m[K
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:[m[K In member function ‘[01m[KT cv::dnn::experimental_dnn_34_v11::DictValue::get(int) const [with T = double][m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:16:13:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kdouble[m[K’)
+ #define pi  [01;31m[K3[m[K.1415926
+             [01;31m[K^[m[K
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:[m[K In member function ‘[01m[Kvoid cv::dnn::experimental_dnn_34_v11::DictValue::release()[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:16:13:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Kdouble[m[K’ argument given to ‘[01m[Kdelete[m[K’, expected pointer
+ #define pi  [01;31m[K3[m[K.1415926
+             [01;31m[K^[m[K
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:[m[K In member function ‘[01m[Kcv::dnn::experimental_dnn_34_v11::DictValue& cv::dnn::experimental_dnn_34_v11::DictValue::operator=(const cv::dnn::experimental_dnn_34_v11::DictValue&)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:16:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+ #define pi  [01;31m[K3[m[K.1415926
+             [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.hpp:968:0[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn.hpp:76[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/include/opencv2/opencv.hpp:62[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:8[m[K:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:219:14:[m[K [01;31m[Kerror: [m[Klvalue required as left operand of assignment
+         pi = [01;31m[Ktmp[m[K;
+              [01;31m[K^~~[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:[m[K In copy constructor ‘[01m[Kcv::dnn::experimental_dnn_34_v11::DictValue::DictValue(const cv::dnn::experimental_dnn_34_v11::DictValue&)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:16:13:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+ #define pi  [01;31m[K3[m[K.1415926
+             [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.hpp:968:0[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn.hpp:76[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/include/opencv2/opencv.hpp:62[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:8[m[K:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:[m[K In member function ‘[01m[Kint cv::dnn::experimental_dnn_34_v11::DictValue::size() const[m[K’:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:271:23:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+         return (int)pi[01;31m[K->[m[Ksize();
+                       [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/mydemo_node.dir/src/mydemo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mydemo_node.dir/all] Error 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [all] Error 2

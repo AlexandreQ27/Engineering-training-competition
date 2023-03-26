@@ -1,0 +1,11 @@
+<launch>
+
+    
+    <node pkg="offb" type="multi_input_node" name="multi" launch-prefix="gnome-terminal --tab --"/>
+    <!--                                     显示无人机的状态以及速度                               -->
+    <node  name = "showinfo_node" pkg = "offb" type = "showinfo_node" output = "screen" launch-prefix="gnome-terminal --tab --"> </node>
+    <!--                                       改变无人机的模式                                                  -->
+    <node  name = "set_mode_node" pkg = "offb" type = "set_mode_node" output = "screen" launch-prefix="gnome-terminal --tab --"> </node>
+    
+    <node pkg="offb" type="communicate_node" name="comm" launch-prefix="gnome-terminal --tab --"/>
+</launch>

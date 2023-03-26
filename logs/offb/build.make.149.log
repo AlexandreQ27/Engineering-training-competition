@@ -1,0 +1,149 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/qyb/catkin_ws/devel/.private/offb
+-- Using CMAKE_PREFIX_PATH: /home/qyb/catkin_ws/devel;/opt/ros/melodic
+-- This workspace overlays: /home/qyb/catkin_ws/devel;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/qyb/catkin_ws/build/offb/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- offb: 1 messages, 0 services
+-- Configuring done
+CMake Warning (dev) at CMakeLists.txt:86 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "offb_msgs_gencpp" of target "showinfo_node" does not
+  exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/qyb/catkin_ws/build/offb
+[  6%] Built target multi_input_node
+[ 12%] Built target servo_control_node
+[ 18%] Built target test_node
+[ 24%] Built target set_mode_node
+[ 30%] Built target node_flyput_node
+[ 36%] Built target send_info_node
+[ 36%] Built target trajectory_msgs_generate_messages_nodejs
+[ 36%] Built target offb_msgs_generate_messages_py
+[ 36%] Built target offb_msgs_generate_messages_nodejs
+[ 36%] Built target offb_msgs_generate_messages_lisp
+[ 36%] Built target offb_msgs_generate_messages_eus
+[ 36%] Built target std_srvs_generate_messages_nodejs
+[ 36%] Built target diagnostic_msgs_generate_messages_nodejs
+[ 36%] Built target mavros_msgs_generate_messages_nodejs
+[ 36%] Built target diagnostic_msgs_generate_messages_lisp
+[ 36%] Built target sensor_msgs_generate_messages_nodejs
+[ 36%] Built target actionlib_generate_messages_cpp
+[ 36%] Built target geometry_msgs_generate_messages_py
+[ 36%] Built target geometry_msgs_generate_messages_lisp
+[ 36%] Built target diagnostic_msgs_generate_messages_py
+[ 36%] Built target roscpp_generate_messages_cpp
+[ 36%] Built target geographic_msgs_generate_messages_py
+[ 36%] Built target uuid_msgs_generate_messages_eus
+[ 36%] Built target std_msgs_generate_messages_nodejs
+[ 36%] Built target sensor_msgs_generate_messages_eus
+[ 36%] Built target std_srvs_generate_messages_lisp
+[ 36%] Built target _catkin_empty_exported_target
+[ 36%] Built target diagnostic_msgs_generate_messages_eus
+[ 36%] Built target actionlib_msgs_generate_messages_lisp
+[ 36%] Built target sensor_msgs_generate_messages_py
+[ 36%] Built target uuid_msgs_generate_messages_lisp
+[ 36%] Built target std_msgs_generate_messages_cpp
+[ 36%] Built target nav_msgs_generate_messages_nodejs
+[ 36%] Built target actionlib_msgs_generate_messages_nodejs
+[ 36%] Built target std_srvs_generate_messages_eus
+[ 36%] Built target roscpp_generate_messages_lisp
+[ 36%] Built target geometry_msgs_generate_messages_nodejs
+[ 36%] Built target std_msgs_generate_messages_lisp
+[ 36%] Built target roscpp_generate_messages_nodejs
+[ 36%] Built target geometry_msgs_generate_messages_eus
+[ 36%] Built target std_msgs_generate_messages_py
+[ 36%] Built target roscpp_generate_messages_py
+[ 36%] Built target trajectory_msgs_generate_messages_eus
+[ 36%] Built target rosgraph_msgs_generate_messages_cpp
+[ 36%] Built target rosgraph_msgs_generate_messages_eus
+[ 36%] Built target rosgraph_msgs_generate_messages_lisp
+[ 36%] Built target std_msgs_generate_messages_eus
+[ 36%] Built target trajectory_msgs_generate_messages_py
+[ 36%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 36%] Built target geographic_msgs_generate_messages_lisp
+[ 36%] Built target geographic_msgs_generate_messages_cpp
+[ 36%] Built target geographic_msgs_generate_messages_eus
+[ 36%] Built target std_srvs_generate_messages_py
+[ 36%] Built target geographic_msgs_generate_messages_nodejs
+[ 36%] Built target actionlib_generate_messages_nodejs
+[ 36%] Built target uuid_msgs_generate_messages_cpp
+[ 36%] Built target uuid_msgs_generate_messages_nodejs
+[ 36%] Built target offb_msgs_generate_messages_cpp
+[ 36%] Built target uuid_msgs_generate_messages_py
+[ 36%] Built target sensor_msgs_generate_messages_cpp
+[ 36%] Built target mavros_msgs_generate_messages_lisp
+[ 36%] Built target mavros_msgs_generate_messages_cpp
+[ 36%] Built target trajectory_msgs_generate_messages_cpp
+[ 36%] Built target mavros_msgs_generate_messages_eus
+[ 36%] Built target sensor_msgs_generate_messages_lisp
+[ 36%] Built target nav_msgs_generate_messages_cpp
+[ 36%] Built target mavros_msgs_generate_messages_py
+[ 36%] Built target nav_msgs_generate_messages_lisp
+[ 36%] Built target actionlib_msgs_generate_messages_cpp
+[ 36%] Built target std_srvs_generate_messages_cpp
+[ 36%] Built target roscpp_generate_messages_eus
+[ 36%] Built target rosgraph_msgs_generate_messages_py
+[ 36%] Built target actionlib_msgs_generate_messages_eus
+[ 36%] Built target actionlib_msgs_generate_messages_py
+[ 36%] Built target diagnostic_msgs_generate_messages_cpp
+[ 36%] Built target actionlib_generate_messages_eus
+[ 36%] Built target geometry_msgs_generate_messages_cpp
+[ 36%] Built target actionlib_generate_messages_lisp
+[ 36%] Built target tf2_msgs_generate_messages_cpp
+[ 36%] Built target nav_msgs_generate_messages_eus
+[ 36%] Built target tf2_msgs_generate_messages_eus
+[ 36%] Built target nav_msgs_generate_messages_py
+[ 36%] Built target tf2_msgs_generate_messages_lisp
+[ 36%] Built target actionlib_generate_messages_py
+[ 36%] Built target tf2_msgs_generate_messages_py
+[ 36%] Built target tf2_msgs_generate_messages_nodejs
+[ 36%] Built target trajectory_msgs_generate_messages_lisp
+[ 36%] Built target _offb_generate_messages_check_deps_Circle
+make[2]: 警告：文件“/home/qyb/catkin_ws/src/offb/src/node_flyput_fixed.cpp”的修改时间在未来 20071 秒后
+[ 39%] [32mBuilding CXX object CMakeFiles/node_flyput_fixed_node.dir/src/node_flyput_fixed.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/offb/lib/offb/node_flyput_fixed_node[0m
+make[2]: 警告：检测到时钟错误。您的创建可能是不完整的。
+[ 42%] Built target node_flyput_fixed_node
+[ 48%] Built target cycle_detect_new_node
+[ 54%] Built target offb_node
+[ 60%] Built target com_node
+[ 66%] Built target communicate_node
+[ 69%] [32mBuilding CXX object CMakeFiles/H_detect_node.dir/src/H_detect.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/offb/lib/offb/H_detect_node[0m
+/usr/bin/ld: warning: libopencv_imgproc.so.3.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0, may conflict with libopencv_imgproc.so.3.4
+/usr/bin/ld: warning: libopencv_core.so.3.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0, may conflict with libopencv_core.so.3.4
+/usr/bin/ld: warning: libopencv_imgcodecs.so.3.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0, may conflict with libopencv_imgcodecs.so.3.4
+[ 72%] Built target H_detect_node
+[35m[1mScanning dependencies of target showinfo_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/showinfo_node.dir/src/showinfo.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/offb/lib/offb/showinfo_node[0m
+[ 78%] Built target showinfo_node
+[35m[1mScanning dependencies of target offb_generate_messages_nodejs[0m
+[ 81%] Built target offb_generate_messages_nodejs
+[35m[1mScanning dependencies of target offb_generate_messages_py[0m
+[ 87%] Built target offb_generate_messages_py
+[35m[1mScanning dependencies of target offb_generate_messages_lisp[0m
+[ 90%] Built target offb_generate_messages_lisp
+[35m[1mScanning dependencies of target offb_generate_messages_eus[0m
+[ 96%] Built target offb_generate_messages_eus
+[35m[1mScanning dependencies of target offb_generate_messages_cpp[0m
+[100%] Built target offb_generate_messages_cpp
+[35m[1mScanning dependencies of target offb_generate_messages[0m
+[100%] Built target offb_generate_messages

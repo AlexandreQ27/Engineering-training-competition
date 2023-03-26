@@ -1,0 +1,135 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/qyb/catkin_ws/devel/.private/offb
+-- Using CMAKE_PREFIX_PATH: /home/qyb/catkin_ws/devel;/opt/ros/melodic
+-- This workspace overlays: /home/qyb/catkin_ws/devel;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/qyb/catkin_ws/build/offb/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- offb: 1 messages, 0 services
+-- Configuring done
+CMake Warning (dev) at CMakeLists.txt:86 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "offb_msgs_gencpp" of target "showinfo_node" does not
+  exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/qyb/catkin_ws/build/offb
+[  6%] Built target multi_input_node
+[ 12%] Built target servo_control_node
+[ 18%] Built target test_node
+[ 24%] Built target set_mode_node
+[ 30%] Built target node_flyput_node
+[ 36%] Built target send_info_node
+[ 36%] Built target trajectory_msgs_generate_messages_nodejs
+[ 36%] Built target offb_msgs_generate_messages_py
+[ 36%] Built target offb_msgs_generate_messages_nodejs
+[ 36%] Built target offb_msgs_generate_messages_lisp
+[ 36%] Built target offb_msgs_generate_messages_eus
+[ 36%] Built target std_srvs_generate_messages_nodejs
+[ 36%] Built target diagnostic_msgs_generate_messages_nodejs
+[ 36%] Built target mavros_msgs_generate_messages_nodejs
+[ 36%] Built target diagnostic_msgs_generate_messages_lisp
+[ 36%] Built target sensor_msgs_generate_messages_nodejs
+[ 36%] Built target actionlib_generate_messages_cpp
+[ 36%] Built target geometry_msgs_generate_messages_py
+[ 36%] Built target geometry_msgs_generate_messages_lisp
+[ 36%] Built target diagnostic_msgs_generate_messages_py
+[ 36%] Built target roscpp_generate_messages_cpp
+[ 36%] Built target geographic_msgs_generate_messages_py
+[ 36%] Built target uuid_msgs_generate_messages_eus
+[ 36%] Built target std_msgs_generate_messages_nodejs
+[ 36%] Built target sensor_msgs_generate_messages_eus
+[ 36%] Built target std_srvs_generate_messages_lisp
+[ 36%] Built target _catkin_empty_exported_target
+[ 36%] Built target diagnostic_msgs_generate_messages_eus
+[ 36%] Built target actionlib_msgs_generate_messages_lisp
+[ 36%] Built target sensor_msgs_generate_messages_py
+[ 36%] Built target uuid_msgs_generate_messages_lisp
+[ 36%] Built target std_msgs_generate_messages_cpp
+[ 36%] Built target nav_msgs_generate_messages_nodejs
+[ 36%] Built target actionlib_msgs_generate_messages_nodejs
+[ 36%] Built target std_srvs_generate_messages_eus
+[ 36%] Built target roscpp_generate_messages_lisp
+[ 36%] Built target geometry_msgs_generate_messages_nodejs
+[ 36%] Built target std_msgs_generate_messages_lisp
+[ 36%] Built target roscpp_generate_messages_nodejs
+[ 36%] Built target geometry_msgs_generate_messages_eus
+[ 36%] Built target std_msgs_generate_messages_py
+[ 36%] Built target roscpp_generate_messages_py
+[ 36%] Built target trajectory_msgs_generate_messages_eus
+[ 36%] Built target rosgraph_msgs_generate_messages_cpp
+[ 36%] Built target rosgraph_msgs_generate_messages_eus
+[ 36%] Built target rosgraph_msgs_generate_messages_lisp
+[ 36%] Built target std_msgs_generate_messages_eus
+[ 36%] Built target trajectory_msgs_generate_messages_py
+[ 36%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 36%] Built target geographic_msgs_generate_messages_lisp
+[ 36%] Built target geographic_msgs_generate_messages_cpp
+[ 36%] Built target geographic_msgs_generate_messages_eus
+[ 36%] Built target std_srvs_generate_messages_py
+[ 36%] Built target geographic_msgs_generate_messages_nodejs
+[ 36%] Built target actionlib_generate_messages_nodejs
+[ 36%] Built target uuid_msgs_generate_messages_cpp
+[ 36%] Built target uuid_msgs_generate_messages_nodejs
+[ 36%] Built target offb_msgs_generate_messages_cpp
+[ 36%] Built target uuid_msgs_generate_messages_py
+[ 36%] Built target sensor_msgs_generate_messages_cpp
+[ 36%] Built target mavros_msgs_generate_messages_lisp
+[ 36%] Built target mavros_msgs_generate_messages_cpp
+[ 36%] Built target trajectory_msgs_generate_messages_cpp
+[ 36%] Built target mavros_msgs_generate_messages_eus
+[ 36%] Built target sensor_msgs_generate_messages_lisp
+[ 36%] Built target nav_msgs_generate_messages_cpp
+[ 36%] Built target mavros_msgs_generate_messages_py
+[ 36%] Built target nav_msgs_generate_messages_lisp
+[ 36%] Built target actionlib_msgs_generate_messages_cpp
+[ 36%] Built target std_srvs_generate_messages_cpp
+[ 36%] Built target roscpp_generate_messages_eus
+[ 36%] Built target rosgraph_msgs_generate_messages_py
+[ 36%] Built target actionlib_msgs_generate_messages_eus
+[ 36%] Built target actionlib_msgs_generate_messages_py
+[ 36%] Built target diagnostic_msgs_generate_messages_cpp
+[ 36%] Built target actionlib_generate_messages_eus
+[ 36%] Built target geometry_msgs_generate_messages_cpp
+[ 36%] Built target actionlib_generate_messages_lisp
+[ 36%] Built target tf2_msgs_generate_messages_cpp
+[ 36%] Built target nav_msgs_generate_messages_eus
+[ 36%] Built target tf2_msgs_generate_messages_eus
+[ 36%] Built target nav_msgs_generate_messages_py
+[ 36%] Built target tf2_msgs_generate_messages_lisp
+[ 36%] Built target actionlib_generate_messages_py
+[ 36%] Built target tf2_msgs_generate_messages_py
+[ 36%] Built target tf2_msgs_generate_messages_nodejs
+[ 36%] Built target trajectory_msgs_generate_messages_lisp
+make[2]: 警告：文件“/home/qyb/catkin_ws/src/offb/src/node_flyput_fixed.cpp”的修改时间在未来 19769 秒后
+[ 39%] [32mBuilding CXX object CMakeFiles/node_flyput_fixed_node.dir/src/node_flyput_fixed.cpp.o[0m
+[ 39%] Built target _offb_generate_messages_check_deps_Circle
+[ 45%] Built target cycle_detect_new_node
+[ 51%] Built target offb_node
+[ 57%] Built target com_node
+[ 63%] Built target communicate_node
+[ 69%] Built target H_detect_node
+[ 75%] Built target showinfo_node
+[ 78%] Built target offb_generate_messages_nodejs
+[ 84%] Built target offb_generate_messages_py
+[ 87%] Built target offb_generate_messages_lisp
+[ 93%] Built target offb_generate_messages_eus
+[ 96%] Built target offb_generate_messages_cpp
+[ 96%] Built target offb_generate_messages
+[100%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/offb/lib/offb/node_flyput_fixed_node[0m
+make[2]: 警告：检测到时钟错误。您的创建可能是不完整的。
+[100%] Built target node_flyput_fixed_node

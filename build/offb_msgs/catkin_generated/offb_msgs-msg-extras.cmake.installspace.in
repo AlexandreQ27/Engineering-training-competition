@@ -1,0 +1,2 @@
+set(offb_msgs_MESSAGE_FILES "msg/DetectionInfo.msg;msg/MultiDetectionInfo.msg;msg/BoundingBox.msg;msg/BoundingBoxes.msg;msg/ControlCommand.msg;msg/PositionReference.msg;msg/AttitudeReference.msg;msg/DroneState.msg;msg/ControlOutput.msg;msg/Message.msg;msg/LogMessage.msg;msg/LogMessageControl.msg;msg/LogMessagePlanning.msg;msg/LogMessageDetection.msg;msg/SwarmCommand.msg;msg/Formation.msg;msg/ArucoInfo.msg;msg/MultiArucoInfo.msg;msg/IndoorSearch.msg;msg/ServoNum.msg")
+set(offb_msgs_SERVICE_FILES "")

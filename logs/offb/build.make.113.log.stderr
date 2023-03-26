@@ -1,0 +1,21 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:[m[K In function ‘[01m[Kvoid process_image(const ImageConstPtr&)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:75:45:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(M.cv::Moments::m10 / M.cv::Moments::m00)[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+                 min_radius_center = { [01;35m[KM.m10 / M.m00[m[K, M.m01 / M.m00 };
+                                       [01;35m[K~~~~~~^~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:75:60:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(M.cv::Moments::m01 / M.cv::Moments::m00)[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+                 min_radius_center = { M.m10 / M.m00, [01;35m[KM.m01 / M.m00[m[K };
+                                                      [01;35m[K~~~~~~^~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:114:39:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+     ros::Subscriber    position_sub = [01;31m[Knh[m[K.subscribe<geometry_msgs::PoseStamped>
+                                       [01;31m[K^~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:114:39:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kn[m[K’
+     ros::Subscriber    position_sub = [01;36m[Knh[m[K.subscribe<geometry_msgs::PoseStamped>
+                                       [01;36m[K^~[m[K
+                                       [32m[Kn[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:114:78:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+     ros::Subscriber    position_sub = nh.subscribe<geometry_msgs::PoseStamped[01;31m[K>[m[K
+                                                                              [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/cycle_detect_new_node.dir/src/cycle_detect_new.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cycle_detect_new_node.dir/all] Error 2
+make: *** [all] Error 2

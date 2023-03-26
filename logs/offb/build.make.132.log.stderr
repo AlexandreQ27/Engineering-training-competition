@@ -1,0 +1,9 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:62:34:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(M.cv::Moments::m10 / M.cv::Moments::m00)[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+                 center = { [01;35m[KM.m10 / M.m00[m[K, M.m01 / M.m00 };
+                            [01;35m[K~~~~~~^~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:62:49:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(M.cv::Moments::m01 / M.cv::Moments::m00)[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+                 center = { M.m10 / M.m00, [01;35m[KM.m01 / M.m00[m[K };
+                                           [01;35m[K~~~~~~^~~~~~~[m[K
+/usr/bin/ld: warning: libopencv_imgproc.so.3.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0, may conflict with libopencv_imgproc.so.3.4
+/usr/bin/ld: warning: libopencv_core.so.3.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0, may conflict with libopencv_core.so.3.4

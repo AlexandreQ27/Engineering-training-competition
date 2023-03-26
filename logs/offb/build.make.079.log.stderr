@@ -1,0 +1,6 @@
+/usr/bin/ld: 找不到 -lopencv_vizopencv_calib3d
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/qyb/catkin_ws/devel/.private/offb/lib/offb/mydemo_node] Error 1
+make[1]: *** [CMakeFiles/mydemo_node.dir/all] Error 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [all] Error 2

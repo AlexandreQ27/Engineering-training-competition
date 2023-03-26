@@ -1,0 +1,1 @@
+/home/qyb/catkin_ws/devel/.private/gazebo_msgs/share/roseus/ros/gazebo_msgs/srv/SetPhysicsProperties.l

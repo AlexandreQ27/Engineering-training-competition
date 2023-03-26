@@ -1,0 +1,11 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:[m[K In function ‘[01m[Kint is_ready()[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:143:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::string {aka std::__cxx11::basic_string<char>}[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint sscanf(const char*, const char*, ...)[m[K’
+     sscanf(line,"x:%d", &x[01;31m[K)[m[K;
+                           [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:147:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::string {aka std::__cxx11::basic_string<char>}[m[K’ to ‘[01m[Kconst char*[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint sscanf(const char*, const char*, ...)[m[K’
+     sscanf(line,"y:%d", &y[01;31m[K)[m[K;
+                           [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/mydemo_node.dir/src/mydemo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mydemo_node.dir/all] Error 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [all] Error 2

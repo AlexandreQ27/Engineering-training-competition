@@ -1,0 +1,1 @@
+/home/qyb/catkin_ws/devel/.private/offb_msgs/share/roseus/ros/offb_msgs/msg/DetectionInfo.l

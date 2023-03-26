@@ -1,0 +1,8 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:[m[K In function ‘[01m[Kint is_ready()[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:141:28:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+  cout <<"新入一行 : "; [01;31m[K<<[m[K line << endl;
+                            [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/mydemo_node.dir/src/mydemo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mydemo_node.dir/all] Error 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [all] Error 2

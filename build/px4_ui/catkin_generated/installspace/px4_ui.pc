@@ -1,0 +1,8 @@
+prefix=/home/qyb/catkin_ws/install
+
+Name: px4_ui
+Description: Description of px4_ui
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

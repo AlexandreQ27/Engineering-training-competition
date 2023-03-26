@@ -1,0 +1,20 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:153:12:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+     system([01;35m[K'rosnode kill /stay_high_node'[m[K);
+            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:[m[K In function ‘[01m[Kvoid change_high(int, double)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:153:42:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kconst char*[m[K’ [[01;31m[K-fpermissive[m[K]
+     system('rosnode kill /stay_high_node'[01;31m[K)[m[K;
+                                          [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/7/cstdlib:75:0[m[K,
+                 from [01m[K/usr/include/c++/7/stdlib.h:36[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:1[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1[m[K:
+[01m[K/usr/include/stdlib.h:781:12:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint system(const char*)[m[K’
+ extern int [01;36m[Ksystem[m[K (const char *__command) __wur;
+            [01;36m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/mydemo_node.dir/src/mydemo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mydemo_node.dir/all] Error 2
+make: *** [all] Error 2

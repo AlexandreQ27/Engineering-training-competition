@@ -1,0 +1,21 @@
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/stay_high.cpp:[m[K In function ‘[01m[Kvoid fly_stay(double, Eigen::Vector3d)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/stay_high.cpp:95:9:[m[K [01;31m[Kerror: [m[K‘[01m[Khigh_pos[m[K’ was not declared in this scope
+         [01;31m[Khigh_pos[m[K[0] = start_pos[0];
+         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/stay_high.cpp:95:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfgetpos[m[K’
+         [01;36m[Khigh_pos[m[K[0] = start_pos[0];
+         [01;36m[K^~~~~~~~[m[K
+         [32m[Kfgetpos[m[K
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/stay_high.cpp:98:2:[m[K [01;31m[Kerror: [m[K‘[01m[KOffb_[m[K’ was not declared in this scope
+  [01;31m[KOffb_[m[K.send_local_pos_setpoint(high_pos);
+  [01;31m[K^~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/stay_high.cpp:100:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krate[m[K’ was not declared in this scope
+         [01;31m[Krate[m[K.sleep();
+         [01;31m[K^~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/stay_high.cpp:100:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kwrite[m[K’
+         [01;36m[Krate[m[K.sleep();
+         [01;36m[K^~~~[m[K
+         [32m[Kwrite[m[K
+make[2]: *** [CMakeFiles/stay_high_node.dir/src/stay_high.cpp.o] Error 1
+make[1]: *** [CMakeFiles/stay_high_node.dir/all] Error 2
+make: *** [all] Error 2

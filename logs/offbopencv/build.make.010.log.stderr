@@ -1,0 +1,7 @@
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/datasave.cpp:[m[K In function ‘[01m[Kvoid circle()[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/datasave.cpp:187:33:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+             fprintf(fp, content1[01;35m[K)[m[K;
+                                 [01;35m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/datasave.cpp:189:33:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+             fprintf(fp, content2[01;35m[K)[m[K;
+                                 [01;35m[K^[m[K

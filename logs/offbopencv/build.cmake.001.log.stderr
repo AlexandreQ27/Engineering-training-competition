@@ -1,0 +1,5 @@
+[31m[1mCMake Error[0m at /home/qyb/catkin_ws/src/offbopencv/CMakeLists.txt:145 (add_dependencies):
+  The dependency target "offb_msgs_gencpp" of target "showinfo_node" does not
+  exist.
+
+

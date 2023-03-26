@@ -1,0 +1,7 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kopencv-3.3.1-dev/opencv2/core.hpp: 没有那个文件或目录
+ #include [01;31m[K<opencv-3.3.1-dev/opencv2/core.hpp>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/mydemo_node.dir/src/mydemo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mydemo_node.dir/all] Error 2
+make: *** [all] Error 2

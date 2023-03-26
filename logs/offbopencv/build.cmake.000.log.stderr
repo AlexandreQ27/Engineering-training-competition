@@ -1,0 +1,14 @@
+[31m[1mCMake Error[0m at /home/qyb/catkin_ws/devel/share/cv_bridge/cmake/cv_bridgeConfig.cmake:113 (message):
+  Project 'cv_bridge' specifies
+  '/home/qyb/catkin_ws/src/vision_opencv/cv_bridge/include' as an include
+  dir, which is not found.  It does neither exist as an absolute directory
+  nor in
+  '/home/qyb/catkin_ws/src/vision_opencv/cv_bridge//home/qyb/catkin_ws/src/vision_opencv/cv_bridge/include'.
+  Check the issue tracker
+  'https://github.com/ros-perception/vision_opencv/issues' and consider
+  creating a ticket if the problem has not been reported yet.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:10 (find_package)
+
+

@@ -1,0 +1,16 @@
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/datasave.cpp:173:35:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\357[m[K’ in program
+         namedWindow("检测结果"[01;31m[K�[m[K��WINDOW_AUTOSIZE);
+                                   [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/datasave.cpp:173:36:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\274[m[K’ in program
+         namedWindow("检测结果"�[01;31m[K�[m[K�WINDOW_AUTOSIZE);
+                                    [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/datasave.cpp:173:37:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\214[m[K’ in program
+         namedWindow("检测结果"�[01;31m[K�[m[KWINDOW_AUTOSIZE);
+                                     [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/datasave.cpp:[m[K In function ‘[01m[Kvoid circle()[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/datasave.cpp:173:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KWINDOW_AUTOSIZE[m[K’
+         namedWindow("检测结果"，[01;31m[KWINDOW_AUTOSIZE[m[K);
+                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/datasave_node.dir/src/datasave.cpp.o] Error 1
+make[1]: *** [CMakeFiles/datasave_node.dir/all] Error 2
+make: *** [all] Error 2

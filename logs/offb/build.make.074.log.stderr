@@ -1,0 +1,219 @@
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+ #define pi[01;35m[K=[m[K3.1415926;
+           [01;35m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:[m[K In member function ‘[01m[Kvoid OffboardControl::send_attitude_setpoint(const Vector3d&, float)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+ #define pi[01;31m[K=[m[K3.1415926;
+           [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:214:46:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kpi[m[K’
+     temp_att[0] = _AttitudeReference[0]/(180/[01;36m[Kp[m[Ki);
+                                              [01;36m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+ #define pi=3.1415926[01;31m[K;[m[K
+                     [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:214:46:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kpi[m[K’
+     temp_att[0] = _AttitudeReference[0]/(180/[01;36m[Kp[m[Ki);
+                                              [01;36m[K^[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:214:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+     temp_att[0] = _AttitudeReference[0]/(180/pi[01;31m[K)[m[K;
+                                                [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+ #define pi[01;31m[K=[m[K3.1415926;
+           [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:215:46:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kpi[m[K’
+     temp_att[1] = _AttitudeReference[1]/(180/[01;36m[Kp[m[Ki);
+                                              [01;36m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+ #define pi=3.1415926[01;31m[K;[m[K
+                     [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:215:46:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kpi[m[K’
+     temp_att[1] = _AttitudeReference[1]/(180/[01;36m[Kp[m[Ki);
+                                              [01;36m[K^[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:215:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+     temp_att[1] = _AttitudeReference[1]/(180/pi[01;31m[K)[m[K;
+                                                [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+ #define pi[01;31m[K=[m[K3.1415926;
+           [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:216:51:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kpi[m[K’
+     temp_att[2] =(90- _AttitudeReference[2])/(180/[01;36m[Kp[m[Ki);
+                                                   [01;36m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+ #define pi=3.1415926[01;31m[K;[m[K
+                     [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:216:51:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kpi[m[K’
+     temp_att[2] =(90- _AttitudeReference[2])/(180/[01;36m[Kp[m[Ki);
+                                                   [01;36m[K^[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:216:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+     temp_att[2] =(90- _AttitudeReference[2])/(180/pi[01;31m[K)[m[K;
+                                                     [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+ #define pi[01;31m[K=[m[K3.1415926;
+           [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:219:22:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[Kpi[m[K’
+      temp_att[2] = 2*[01;36m[Kp[m[Ki+temp_att[2];
+                      [01;36m[K^[m[K
+In file included from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.hpp:57:0[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn.hpp:76[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/include/opencv2/opencv.hpp:62[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:8[m[K:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:[m[K At global scope:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:63:56:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knew[m[K’
+     DictValue(bool i)           : type(Param::INT), pi([01;31m[Knew[m[K AutoBuffer<int64,1>) { (*pi)[0] = i ? 1 : 0; }       //!< Constructs integer scalar
+                                                        [01;31m[K^~~[m[K
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:63:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Knew[m[K’
+In file included from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.hpp:57:0[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn.hpp:76[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/include/opencv2/opencv.hpp:62[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:8[m[K:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:64:56:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knew[m[K’
+     DictValue(int64 i = 0)      : type(Param::INT), pi([01;31m[Knew[m[K AutoBuffer<int64,1>) { (*pi)[0] = i; }       //!< Constructs integer scalar
+                                                        [01;31m[K^~~[m[K
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:64:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Knew[m[K’
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:65:56:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knew[m[K’
+     CV_WRAP DictValue(int i)    : type(Param::INT), pi([01;31m[Knew[m[K AutoBuffer<int64,1>) { (*pi)[0] = i; }       //!< Constructs integer scalar
+                                                        [01;31m[K^~~[m[K
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:65:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Knew[m[K’
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:66:56:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knew[m[K’
+     DictValue(unsigned p)       : type(Param::INT), pi([01;31m[Knew[m[K AutoBuffer<int64,1>) { (*pi)[0] = p; }       //!< Constructs integer scalar
+                                                        [01;31m[K^~~[m[K
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:66:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Knew[m[K’
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+ #define pi[01;31m[K=[m[K3.1415926;
+           [01;31m[K^[m[K
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:[m[K In constructor ‘[01m[Kcv::dnn::experimental_dnn_34_v11::DictValue::DictValue(bool)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K=[m[K’ token
+ #define pi[01;31m[K=[m[K3.1415926;
+           [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K=[m[K’ token
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:[m[K In constructor ‘[01m[Kcv::dnn::experimental_dnn_34_v11::DictValue::DictValue(int64)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K=[m[K’ token
+ #define pi[01;31m[K=[m[K3.1415926;
+           [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K=[m[K’ token
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:[m[K In constructor ‘[01m[Kcv::dnn::experimental_dnn_34_v11::DictValue::DictValue(int)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K=[m[K’ token
+ #define pi[01;31m[K=[m[K3.1415926;
+           [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K=[m[K’ token
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dict.hpp:[m[K In constructor ‘[01m[Kcv::dnn::experimental_dnn_34_v11::DictValue::DictValue(unsigned int)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K=[m[K’ token
+ #define pi[01;31m[K=[m[K3.1415926;
+           [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K=[m[K’ token
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:[m[K In static member function ‘[01m[Kstatic cv::dnn::experimental_dnn_34_v11::DictValue cv::dnn::experimental_dnn_34_v11::DictValue::arrayInt(TypeIter, int)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+ #define pi[01;31m[K=[m[K3.1415926;
+           [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+ #define pi=3.1415926[01;31m[K;[m[K
+                     [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.hpp:968:0[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn.hpp:76[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/include/opencv2/opencv.hpp:62[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:8[m[K:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:56:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+         (*res.pi[01;31m[K)[m[K[j] = *begin;
+                 [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:[m[K In member function ‘[01m[KT cv::dnn::experimental_dnn_34_v11::DictValue::get(int) const [with T = long int][m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+ #define pi[01;31m[K=[m[K3.1415926;
+           [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+ #define pi=3.1415926[01;31m[K;[m[K
+                     [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.hpp:968:0[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn.hpp:76[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/include/opencv2/opencv.hpp:62[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:8[m[K:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:93:20:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+         return (*pi[01;31m[K)[m[K[idx];
+                    [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:[m[K In member function ‘[01m[KT cv::dnn::experimental_dnn_34_v11::DictValue::get(int) const [with T = double][m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+ #define pi[01;31m[K=[m[K3.1415926;
+           [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+ #define pi=3.1415926[01;31m[K;[m[K
+                     [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.hpp:968:0[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn.hpp:76[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/include/opencv2/opencv.hpp:62[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:8[m[K:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:151:28:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+         return (double)(*pi[01;31m[K)[m[K[idx];
+                            [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:[m[K In member function ‘[01m[Kvoid cv::dnn::experimental_dnn_34_v11::DictValue::release()[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+ #define pi[01;31m[K=[m[K3.1415926;
+           [01;31m[K^[m[K
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:[m[K In member function ‘[01m[Kcv::dnn::experimental_dnn_34_v11::DictValue& cv::dnn::experimental_dnn_34_v11::DictValue::operator=(const cv::dnn::experimental_dnn_34_v11::DictValue&)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+ #define pi[01;31m[K=[m[K3.1415926;
+           [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.hpp:968:0[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn.hpp:76[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/include/opencv2/opencv.hpp:62[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:8[m[K:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:217:67:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+         AutoBuffer<int64, 1> *tmp = new AutoBuffer<int64, 1>(*r.pi[01;31m[K)[m[K;
+                                                                   [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+ #define pi[01;31m[K=[m[K3.1415926;
+           [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.hpp:968:0[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn.hpp:76[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/include/opencv2/opencv.hpp:62[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:8[m[K:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:219:12:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+         pi [01;31m[K=[m[K tmp;
+            [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:[m[K In copy constructor ‘[01m[Kcv::dnn::experimental_dnn_34_v11::DictValue::DictValue(const cv::dnn::experimental_dnn_34_v11::DictValue&)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+ #define pi[01;31m[K=[m[K3.1415926;
+           [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.hpp:968:0[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn.hpp:76[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/include/opencv2/opencv.hpp:62[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:8[m[K:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:244:12:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+         pi [01;31m[K=[m[K new AutoBuffer<int64, 1>(*r.pi);
+            [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K=[m[K’ token
+ #define pi[01;31m[K=[m[K3.1415926;
+           [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.hpp:968:0[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn.hpp:76[m[K,
+                 from [01m[K/home/qyb/opencv-3.4.6/include/opencv2/opencv.hpp:62[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:8[m[K:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:244:44:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+         pi = new AutoBuffer<int64, 1>(*r.pi[01;31m[K)[m[K;
+                                            [01;31m[K^[m[K
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:245:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+     [01;31m[Kelse[m[K if (r.type == Param::STRING)
+     [01;31m[K^~~~[m[K
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:[m[K In member function ‘[01m[Kint cv::dnn::experimental_dnn_34_v11::DictValue::size() const[m[K’:
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:271:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+         return ([01;31m[Kint[m[K)pi->size();
+                 [01;31m[K^~~[m[K
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:271:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kint[m[K’
+[01m[K/home/qyb/opencv-3.4.6/modules/dnn/include/opencv2/dnn/dnn.inl.hpp:271:23:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K->[m[K’ token
+         return (int)pi[01;31m[K->[m[Ksize();
+                       [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/mydemo_node.dir/src/mydemo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mydemo_node.dir/all] Error 2
+make: *** [all] Error 2

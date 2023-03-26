@@ -1,0 +1,4 @@
+<launch>
+        <!--                                       持续向飞控发送点                                 -->
+        <node  name = "H_detect_node" pkg = "offb" type = "H_detect_node" output = "screen"> </node>
+</launch>

@@ -1,0 +1,48 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:22:1:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+ [01;31m[KEigen[m[K::Vector3d pos_drone;
+ [01;31m[K^~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:23:35:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+  void pos_cb(const geometry_msgs::[01;31m[KPoseStamped[m[K::ConstPtr &msg)
+                                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:23:57:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  void pos_cb(const geometry_msgs::PoseStamped::ConstPtr [01;31m[K&[m[Kmsg)
+                                                         [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:23:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:23:58:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+  void pos_cb(const geometry_msgs::PoseStamped::ConstPtr &[01;31m[Kmsg[m[K)
+                                                          [01;31m[K^~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:[m[K In function ‘[01m[Kvoid process_image(const ImageConstPtr&)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:74:45:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(M.cv::Moments::m10 / M.cv::Moments::m00)[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+                 min_radius_center = { [01;35m[KM.m10 / M.m00[m[K, M.m01 / M.m00 };
+                                       [01;35m[K~~~~~~^~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:74:60:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(M.cv::Moments::m01 / M.cv::Moments::m00)[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+                 min_radius_center = { M.m10 / M.m00, [01;35m[KM.m01 / M.m00[m[K };
+                                                      [01;35m[K~~~~~~^~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:95:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kpos_drone[m[K’ was not declared in this scope
+     double a = error_y * sensor_x * [01;31m[Kpos_drone[m[K[2] / (x_size * fx);//xƫ��
+                                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:113:39:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+     ros::Subscriber    position_sub = [01;31m[Knh[m[K.subscribe<geometry_msgs::PoseStamped>
+                                       [01;31m[K^~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:113:39:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kn[m[K’
+     ros::Subscriber    position_sub = [01;36m[Knh[m[K.subscribe<geometry_msgs::PoseStamped>
+                                       [01;36m[K^~[m[K
+                                       [32m[Kn[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:113:67:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’
+     ros::Subscriber    position_sub = nh.subscribe<geometry_msgs::[01;31m[KPoseStamped[m[K>
+                                                                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:113:67:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KTwistStamped[m[K’
+     ros::Subscriber    position_sub = nh.subscribe<geometry_msgs::[01;36m[KPoseStamped[m[K>
+                                                                   [01;36m[K^~~~~~~~~~~[m[K
+                                                                   [32m[KTwistStamped[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:114:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kpos_cb[m[K’ was not declared in this scope
+             ("/mavros/local_position/pose", 10, [01;31m[Kpos_cb[m[K);
+                                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:114:49:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfpos_t[m[K’
+             ("/mavros/local_position/pose", 10, [01;36m[Kpos_cb[m[K);
+                                                 [01;36m[K^~~~~~[m[K
+                                                 [32m[Kfpos_t[m[K
+make[2]: *** [CMakeFiles/cycle_detect_new_node.dir/src/cycle_detect_new.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cycle_detect_new_node.dir/all] Error 2
+make: *** [all] Error 2

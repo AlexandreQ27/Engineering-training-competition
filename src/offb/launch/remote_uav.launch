@@ -1,0 +1,18 @@
+<launch>
+	<arg name="Baudrate" type="int" value="9600"/>
+	<arg name="throw_serial_port"  type="string" value="/dev/arduino"/>
+
+	<include file="$(find mavros)/launch/px4.launch" />
+	<include file="$(find realsense2_camera)/launch/rs_t265.launch" />
+	<include file="$(find vision_to_mavros)/launch/t265_tf_to_mavros.launch" />
+	
+	<node  name = "test_node"     pkg = "offb" type = "test_node"     output = "screen"> 
+	        <param name="Baudrate"  value="$(arg Baudrate)"/>
+	        <param name="throw_serial_port"  value="$(arg throw_serial_port)"/>
+                </node>
+<!--                                      打开电脑自带摄像头                                                  -->
+	<node pkg="offb" type="cam.py" name="cam_node" respawn="false" />
+	<!--                                      识别圆心并存储坐标                                                  -->
+	<node pkg="offb" type="cycle_detect_new_node" name="cycle_detect_new_node" respawn="false"/>
+	        <param name="desire_z" value="$(arg desire_z)"/>
+</launch>

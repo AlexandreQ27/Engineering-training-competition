@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>offb</name>
+  <version>0.0.0</version>
+  <description>The offb package</description>
+
+  <!-- One maintainer tag required, multiple allowed, one person per tag -->
+  <!-- Example:  -->
+  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
+  <maintainer email="xs@todo.todo">xs</maintainer>
+
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+
+<!-- new -->
+   <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <depend>pluginlib</depend>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>move_base_msgs</build_depend>
+<!-- new -->
+<build_depend>image_transport</build_depend>
+<build_depend>cv_bridge</build_depend>
+<build_depend>opencv2</build_depend>
+<!-- new -->
+<build_export_depend>cv_bridge</build_export_depend>
+
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>tf</build_export_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>tf</exec_depend>
+<!-- new -->
+<exec_depend>cv_bridge</exec_depend>
+
+  <exec_depend>actionlib</exec_depend>
+  <exec_depend>move_base_msgs</exec_depend>
+
+  <build_export_depend>offb_msgs</build_export_depend>
+  <exec_depend>offb_msgs</exec_depend>
+<!-- new -->
+<exec_depend>image_transport</exec_depend>
+  <exec_depend>opencv2</exec_depend>
+
+  <!-- <build_export_depend>serial_port</build_export_depend>
+  <exec_depend>serial_port</exec_depend> -->
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

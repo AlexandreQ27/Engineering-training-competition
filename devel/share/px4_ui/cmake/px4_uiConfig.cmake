@@ -1,0 +1,1 @@
+/home/qyb/catkin_ws/devel/.private/px4_ui/share/px4_ui/cmake/px4_uiConfig.cmake

@@ -1,0 +1,23 @@
+CMake Warning (dev) at CMakeLists.txt:86 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "offb_msgs_gencpp" of target "showinfo_node" does not
+  exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+make[2]: 警告：文件“/home/qyb/catkin_ws/src/offb/src/node_flyput_fixed.cpp”的修改时间在未来 20390 秒后
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:[m[K In function ‘[01m[Kvoid process_image(const ImageConstPtr&)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:76:45:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(M.cv::Moments::m10 / M.cv::Moments::m00)[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+                 min_radius_center = { [01;35m[KM.m10 / M.m00[m[K, M.m01 / M.m00 };
+                                       [01;35m[K~~~~~~^~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:76:60:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(M.cv::Moments::m01 / M.cv::Moments::m00)[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+                 min_radius_center = { M.m10 / M.m00, [01;35m[KM.m01 / M.m00[m[K };
+                                                      [01;35m[K~~~~~~^~~~~~~[m[K
+make[2]: 警告：检测到时钟错误。您的创建可能是不完整的。
+/usr/bin/ld: warning: libopencv_imgproc.so.3.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0, may conflict with libopencv_imgproc.so.3.4
+/usr/bin/ld: warning: libopencv_core.so.3.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0, may conflict with libopencv_core.so.3.4
+/usr/bin/ld: warning: libopencv_imgproc.so.3.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0, may conflict with libopencv_imgproc.so.3.4
+/usr/bin/ld: warning: libopencv_core.so.3.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0, may conflict with libopencv_core.so.3.4
+/usr/bin/ld: warning: libopencv_imgcodecs.so.3.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0, may conflict with libopencv_imgcodecs.so.3.4

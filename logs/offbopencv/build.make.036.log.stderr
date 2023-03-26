@@ -1,0 +1,4 @@
+make[2]: *** 没有规则可制作目标“CMakeFiles/stay_high_node.dir/build”。 停止。
+make[1]: *** [CMakeFiles/stay_high_node.dir/all] Error 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [all] Error 2

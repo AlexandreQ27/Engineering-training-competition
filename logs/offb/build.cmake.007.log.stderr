@@ -1,0 +1,20 @@
+[31m[1mCMake Error[0m at /home/qyb/catkin_ws/src/offb/CMakeLists.txt:71 (add_executable):
+  Cannot find source file:
+
+    src/mydemo.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Warning (dev) at CMakeLists.txt:53 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "offb_msgs_gencpp" of target "showinfo_node" does not
+  exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error: CMake can not determine linker language for target: mydemo_node
+CMake Error: Cannot determine link language for target "mydemo_node".

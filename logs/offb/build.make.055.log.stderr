@@ -1,0 +1,31 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:[m[K In function ‘[01m[Kvoid pos_cb(const ConstPtr&)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:6:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpos_drone[m[K’ was not declared in this scope
+             [01;31m[Kpos_drone[m[K[0] = msg->pose.position.x;
+             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:[m[K In function ‘[01m[Kvoid vel_cb(const ConstPtr&)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:13:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_drone[m[K’ was not declared in this scope
+             [01;31m[Kvel_drone[m[K[0] = msg->twist.linear.x;
+             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:57:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KOffboardControl Offb_[m[K’
+     OffboardControl [01;31m[KOffb_[m[K;
+                     [01;31m[K^~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:47:21:[m[K [01;36m[Knote: [m[K‘[01m[KOffboardControl Offb_[m[K’ previously declared here
+     OffboardControl [01;36m[KOffb_[m[K;
+                     [01;36m[K^~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:58:19:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kros::Rate rate[m[K’
+     ros::Rate rate[01;31m[K([m[K20.0);
+                   [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:42:15:[m[K [01;36m[Knote: [m[K‘[01m[Kros::Rate rate[m[K’ previously declared here
+     ros::Rate [01;36m[Krate[m[K(20.0);
+               [01;36m[K^~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:62:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kpos_drone[m[K’ was not declared in this scope
+         stay_pos[0] = [01;31m[Kpos_drone[m[K[0];
+                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:62:23:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstate_drone[m[K’
+         stay_pos[0] = [01;36m[Kpos_drone[m[K[0];
+                       [01;36m[K^~~~~~~~~[m[K
+                       [32m[Kstate_drone[m[K
+make[2]: *** [CMakeFiles/stay_high_node.dir/src/stay_high.cpp.o] Error 1
+make[1]: *** [CMakeFiles/stay_high_node.dir/all] Error 2
+make: *** [all] Error 2

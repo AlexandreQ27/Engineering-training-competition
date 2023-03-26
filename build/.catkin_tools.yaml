@@ -1,0 +1,6 @@
+devel_space: /home/qyb/catkin_ws/devel
+install: false
+install_space: /home/qyb/catkin_ws/install
+profile: default
+source_space: /home/qyb/catkin_ws/src
+workspace: /home/qyb/catkin_ws

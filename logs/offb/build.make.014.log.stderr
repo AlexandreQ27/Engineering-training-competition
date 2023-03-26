@@ -1,0 +1,11 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:232:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kland_time[m[K’ was not declared in this scope
+             if(ros::Time::now() - [01;31m[Kland_time[m[K > ros::Duration(2.0)){
+                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:232:35:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kadjtime[m[K’
+             if(ros::Time::now() - [01;36m[Kland_time[m[K > ros::Duration(2.0)){
+                                   [01;36m[K^~~~~~~~~[m[K
+                                   [32m[Kadjtime[m[K
+make[2]: *** [CMakeFiles/mydemo_node.dir/src/mydemo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mydemo_node.dir/all] Error 2
+make: *** [all] Error 2

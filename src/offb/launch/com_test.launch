@@ -1,0 +1,28 @@
+<launch>
+
+        <arg name="desire_z"  type="double" value="5.0"/>
+        <arg name="change" type="double" value="0.02" />
+        <arg name="Baudrate" type="int" value="9600"/>
+	<arg name="throw_serial_port"  type="string" value="/dev/ttyUSB0"/>
+	<!--                            无人机飞行中的期望高度                                           -->
+        <!--                                        持续向飞控发送点                                                                                     -->
+        <node  name = "send_info_node" pkg = "offb" type = "send_info_node" output = "screen"> </node>
+        <!--                                        主要的控制程序                                                    -->
+        <node  name = "fly_putting_node" pkg = "offb" type = "fly_putting_node" output = "screen"  launch-prefix="gnome-terminal --window --">
+                <param name="desire_z" value="$(arg desire_z)"/>
+                <param name="change" value="$(arg change)" />
+                </node>
+         <!--                                     显示无人机的状态以及速度                               -->
+        <node  name = "showinfo_node" pkg = "offb" type = "showinfo_node" output = "screen" launch-prefix="gnome-terminal --window --"> </node>
+        <!--                                       改变无人机的模式                                                  -->
+        <node  name = "set_mode_node" pkg = "offb" type = "set_mode_node" output = "screen" launch-prefix="gnome-terminal --window --"> </node>
+        <!--                                       通过串口给arduino发送指令                             -->
+	<node  name = "test_node"     pkg = "offb" type = "test_node"     output = "screen" launch-prefix="gnome-terminal --window --"> 
+	        <param name="Baudrate"  value="$(arg Baudrate)"/>
+	        <param name="throw_serial_port"  value="$(arg throw_serial_port)"/>
+                </node>
+        <!--                                        串口输入改变舵机状态                                      -->
+        <node name="servo_control_node"  pkg = "offb"  type = "servo_control_node" output = "screen"  launch-prefix="gnome-terminal --window --"> 
+	<remap from="/mavros/setpoint_position/local" to="/fuckoff" />	
+</node>
+</launch>

@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/home/qyb/catkin_ws/devel/.private/cv_bridge/lib;/opt/ros/melodic/lib;/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/gazebo-9/plugins")

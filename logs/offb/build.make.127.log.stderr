@@ -1,0 +1,21 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:[m[K In function ‘[01m[Kvoid process_image(const ImageConstPtr&)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:59:45:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(M.cv::Moments::m10 / M.cv::Moments::m00)[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+                 min_radius_center = { [01;35m[KM.m10 / M.m00[m[K, M.m01 / M.m00 };
+                                       [01;35m[K~~~~~~^~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:59:60:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(M.cv::Moments::m01 / M.cv::Moments::m00)[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+                 min_radius_center = { M.m10 / M.m00, [01;35m[KM.m01 / M.m00[m[K };
+                                                      [01;35m[K~~~~~~^~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:110:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontours[m[K’ was not declared in this scope
+                 for (size_t idx = 0; idx < [01;31m[Kcontours[m[K.size(); idx++) {
+                                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:110:44:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KCvContour[m[K’
+                 for (size_t idx = 0; idx < [01;36m[Kcontours[m[K.size(); idx++) {
+                                            [01;36m[K^~~~~~~~[m[K
+                                            [32m[KCvContour[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:118:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontour_image[m[K’ was not declared in this scope
+              cv::drawContours([01;31m[Kcontour_image[m[K, contours, idx, cv::Scalar(255, 255, 255));
+                               [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/juxin_detect_node.dir/src/juxin_detect.cpp.o] Error 1
+make[1]: *** [CMakeFiles/juxin_detect_node.dir/all] Error 2
+make: *** [all] Error 2

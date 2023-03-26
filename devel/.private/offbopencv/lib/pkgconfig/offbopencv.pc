@@ -1,0 +1,8 @@
+prefix=/home/qyb/catkin_ws/devel/.private/offbopencv
+
+Name: offbopencv
+Description: Description of offbopencv
+Version: 0.0.0
+Cflags: -I/home/qyb/catkin_ws/src/offbopencv/include
+Libs: -L${prefix}/lib 
+Requires: 

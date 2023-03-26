@@ -1,0 +1,13 @@
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/datasave.cpp:[m[K In function ‘[01m[Kvoid circle()[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/datasave.cpp:180:11:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+     while([01;31m[Knh[m[K.ok())
+           [01;31m[K^~[m[K
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/datasave.cpp:182:22:[m[K [01;31m[Kerror: [m[K‘[01m[KimageRaw[m[K’ was not declared in this scope
+         capture.read([01;31m[KimageRaw[m[K);          // 读取当前图像到imageRaw
+                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offbopencv/src/datasave.cpp:185:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_pub[m[K’ was not declared in this scope
+         [01;31m[Kimage_pub[m[K.publish(msg);         // 发布图像信息
+         [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/datasave_node.dir/src/datasave.cpp.o] Error 1
+make[1]: *** [CMakeFiles/datasave_node.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,1 @@
+/home/qyb/catkin_ws/devel/.private/offb_msgs/lib/python2.7/dist-packages/offb_msgs/msg/_BoundingBox.py

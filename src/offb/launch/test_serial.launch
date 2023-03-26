@@ -1,0 +1,9 @@
+<launch>
+	<arg name="Baudrate" type="int" value="9600"/>
+	<arg name="throw_serial_port"  type="string" value="/dev/ttyACM0"/>
+	
+	<node  name = "test_node"     pkg = "offb" type = "test_node"     output = "screen" > 
+	        <param name="Baudrate"  value="$(arg Baudrate)"/>
+	        <param name="throw_serial_port"  value="$(arg throw_serial_port)"/>
+                </node>
+</launch>

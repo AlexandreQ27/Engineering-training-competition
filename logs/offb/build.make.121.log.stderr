@@ -1,0 +1,178 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:[m[K In function ‘[01m[Kvoid process_image(const ImageConstPtr&)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:59:45:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(M.cv::Moments::m10 / M.cv::Moments::m00)[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+                 min_radius_center = { [01;35m[KM.m10 / M.m00[m[K, M.m01 / M.m00 };
+                                       [01;35m[K~~~~~~^~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:59:60:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(M.cv::Moments::m01 / M.cv::Moments::m00)[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+                 min_radius_center = { M.m10 / M.m00, [01;35m[KM.m01 / M.m00[m[K };
+                                                      [01;35m[K~~~~~~^~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:80:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_x[m[K’ was not declared in this scope
+     double a = error_y * [01;31m[Ksensor_x[m[K * pos_drone[2] / (x_size * fx);//xƫ��
+                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:80:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kerror_x[m[K’
+     double a = error_y * [01;36m[Ksensor_x[m[K * pos_drone[2] / (x_size * fx);//xƫ��
+                          [01;36m[K^~~~~~~~[m[K
+                          [32m[Kerror_x[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:80:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kpos_drone[m[K’ was not declared in this scope
+     double a = error_y * sensor_x * [01;31m[Kpos_drone[m[K[2] / (x_size * fx);//xƫ��
+                                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:80:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_size[m[K’ was not declared in this scope
+     double a = error_y * sensor_x * pos_drone[2] / ([01;31m[Kx_size[m[K * fx);//xƫ��
+                                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:80:53:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdysize[m[K’
+     double a = error_y * sensor_x * pos_drone[2] / ([01;36m[Kx_size[m[K * fx);//xƫ��
+                                                     [01;36m[K^~~~~~[m[K
+                                                     [32m[Kdysize[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:80:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kfx[m[K’ was not declared in this scope
+     double a = error_y * sensor_x * pos_drone[2] / (x_size * [01;31m[Kfx[m[K);//xƫ��
+                                                              [01;31m[K^~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:81:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_y[m[K’ was not declared in this scope
+     double b = error_x * [01;31m[Ksensor_y[m[K * pos_drone[2]/ (y_size * fy);//yƫ��
+                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:81:26:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kerror_y[m[K’
+     double b = error_x * [01;36m[Ksensor_y[m[K * pos_drone[2]/ (y_size * fy);//yƫ��
+                          [01;36m[K^~~~~~~~[m[K
+                          [32m[Kerror_y[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:81:52:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_size[m[K’ was not declared in this scope
+     double b = error_x * sensor_y * pos_drone[2]/ ([01;31m[Ky_size[m[K * fy);//yƫ��
+                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:81:52:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdysize[m[K’
+     double b = error_x * sensor_y * pos_drone[2]/ ([01;36m[Ky_size[m[K * fy);//yƫ��
+                                                    [01;36m[K^~~~~~[m[K
+                                                    [32m[Kdysize[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:81:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kfy[m[K’ was not declared in this scope
+     double b = error_x * sensor_y * pos_drone[2]/ (y_size * [01;31m[Kfy[m[K);//yƫ��
+                                                             [01;31m[K^~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:82:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcircle[m[K’ was not declared in this scope
+     [01;31m[Kcircle[m[K.circle_x = a;
+     [01;31m[K^~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:82:5:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/local/include/opencv2/imgproc/imgproc.hpp:48:0[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h:44[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:3[m[K:
+[01m[K/usr/local/include/opencv2/imgproc.hpp:4468:19:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::circle[m[K’
+ CV_EXPORTS_W void [01;36m[Kcircle[m[K(InputOutputArray img, Point center, int radius,
+                   [01;36m[K^~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:85:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcircle_pub[m[K’ was not declared in this scope
+         [01;31m[Kcircle_pub[m[K.publish(circle);
+         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:94:5:[m[K [01;31m[Kerror: [m[K‘[01m[KVideoCapture[m[K’ was not declared in this scope
+     [01;31m[KVideoCapture[m[K cap(0);
+     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:94:5:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/local/include/opencv2/highgui.hpp:51:0[m[K,
+                 from [01m[K/usr/local/include/opencv2/opencv.hpp:68[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:4[m[K:
+[01m[K/usr/local/include/opencv2/videoio.hpp:612:20:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::VideoCapture[m[K’
+ class CV_EXPORTS_W [01;36m[KVideoCapture[m[K
+                    [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:95:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcap[m[K’ was not declared in this scope
+     if(![01;31m[Kcap[m[K.isOpened())
+         [01;31m[K^~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:95:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbcmp[m[K’
+     if(![01;36m[Kcap[m[K.isOpened())
+         [01;36m[K^~~[m[K
+         [32m[Kbcmp[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:99:5:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ was not declared in this scope
+     [01;31m[KMat[m[K frame;
+     [01;31m[K^~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:99:5:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/local/include/opencv2/core.hpp:59:0[m[K,
+                 from [01m[K/usr/local/include/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:3[m[K:
+[01m[K/usr/local/include/opencv2/core/mat.hpp:801:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Mat[m[K’
+ class CV_EXPORTS [01;36m[KMat[m[K
+                  [01;36m[K^~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:100:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kedges[m[K’
+     Mat [01;31m[Kedges[m[K;
+         [01;31m[K^~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:105:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcap[m[K’ was not declared in this scope
+         [01;31m[Kcap[m[K>>frame;
+         [01;31m[K^~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:105:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbcmp[m[K’
+         [01;36m[Kcap[m[K>>frame;
+         [01;36m[K^~~[m[K
+         [32m[Kbcmp[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:105:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+         cap>>[01;31m[Kframe[m[K;
+              [01;31m[K^~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:105:14:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfree[m[K’
+         cap>>[01;36m[Kframe[m[K;
+              [01;36m[K^~~~~[m[K
+              [32m[Kfree[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:106:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kedges[m[K’ was not declared in this scope
+         cvtColor(frame, [01;31m[Kedges[m[K, CV_BGR2GRAY);
+                         [01;31m[K^~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:106:9:[m[K [01;31m[Kerror: [m[K‘[01m[KcvtColor[m[K’ was not declared in this scope
+         [01;31m[KcvtColor[m[K(frame, edges, CV_BGR2GRAY);
+         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:106:9:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/local/include/opencv2/imgproc/imgproc.hpp:48:0[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h:44[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:3[m[K:
+[01m[K/usr/local/include/opencv2/imgproc.hpp:3679:19:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::cvtColor[m[K’
+ CV_EXPORTS_W void [01;36m[KcvtColor[m[K( InputArray src, OutputArray dst, int code, int dstCn = 0 );
+                   [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:3:0[m[K:
+[01m[K/home/qyb/catkin_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h:247:12:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv_bridge::cvtColor[m[K’
+ CvImagePtr [01;36m[KcvtColor[m[K(const CvImageConstPtr& source,
+            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:107:36:[m[K [01;31m[Kerror: [m[K‘[01m[KSize[m[K’ was not declared in this scope
+         GaussianBlur(edges, edges, [01;31m[KSize[m[K(7,7), 1.5, 1.5);
+                                    [01;31m[K^~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:107:36:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/local/include/opencv2/core.hpp:58:0[m[K,
+                 from [01m[K/usr/local/include/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:3[m[K:
+[01m[K/usr/local/include/opencv2/core/types.hpp:343:16:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Size[m[K’
+ typedef Size2i [01;36m[KSize[m[K;
+                [01;36m[K^~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:107:9:[m[K [01;31m[Kerror: [m[K‘[01m[KGaussianBlur[m[K’ was not declared in this scope
+         [01;31m[KGaussianBlur[m[K(edges, edges, Size(7,7), 1.5, 1.5);
+         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:107:9:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/local/include/opencv2/imgproc/imgproc.hpp:48:0[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h:44[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:3[m[K:
+[01m[K/usr/local/include/opencv2/imgproc.hpp:1414:19:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::GaussianBlur[m[K’
+ CV_EXPORTS_W void [01;36m[KGaussianBlur[m[K( InputArray src, OutputArray dst, Size ksize,
+                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:108:9:[m[K [01;31m[Kerror: [m[K‘[01m[KCanny[m[K’ was not declared in this scope
+         [01;31m[KCanny[m[K(edges, edges, 0, 30, 3);
+         [01;31m[K^~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:108:9:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/local/include/opencv2/imgproc/imgproc.hpp:48:0[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h:44[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:3[m[K:
+[01m[K/usr/local/include/opencv2/imgproc.hpp:1758:19:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Canny[m[K’
+ CV_EXPORTS_W void [01;36m[KCanny[m[K( InputArray dx, InputArray dy,
+                   [01;36m[K^~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:109:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimshow[m[K’ was not declared in this scope
+         [01;31m[Kimshow[m[K("��ǰ��Ƶ",edges);
+         [01;31m[K^~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:109:9:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/local/include/opencv2/opencv.hpp:68:0[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:4[m[K:
+[01m[K/usr/local/include/opencv2/highgui.hpp:624:17:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::imshow[m[K’
+ CV_EXPORTS void [01;36m[Kimshow[m[K(const String& winname, const ogl::Texture2D& tex);
+                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/usr/local/include/opencv2/viz.hpp:52:0[m[K,
+                 from [01m[K/usr/local/include/opencv2/opencv.hpp:104[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:4[m[K:
+[01m[K/usr/local/include/opencv2/viz/vizcore.hpp:108:26:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::viz::imshow[m[K’
+         CV_EXPORTS Viz3d [01;36m[Kimshow[m[K(const String& window_name, InputArray image, const Size& window_size = Size(-1, -1));
+                          [01;36m[K^~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:110:12:[m[K [01;31m[Kerror: [m[K‘[01m[KwaitKey[m[K’ was not declared in this scope
+         if([01;31m[KwaitKey[m[K(30) >=0)
+            [01;31m[K^~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:110:12:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/local/include/opencv2/opencv.hpp:68:0[m[K,
+                 from [01m[K/home/qyb/catkin_ws/src/offb/src/juxin_detect.cpp:4[m[K:
+[01m[K/usr/local/include/opencv2/highgui.hpp:353:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::waitKey[m[K’
+ CV_EXPORTS_W int [01;36m[KwaitKey[m[K(int delay = 0);
+                  [01;36m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/juxin_detect_node.dir/src/juxin_detect.cpp.o] Error 1
+make[1]: *** [CMakeFiles/juxin_detect_node.dir/all] Error 2
+make: *** [all] Error 2

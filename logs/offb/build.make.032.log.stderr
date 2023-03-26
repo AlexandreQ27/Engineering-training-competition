@@ -1,0 +1,22 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:[m[K In function ‘[01m[Kvoid if_ready()[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:112:23:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ifstream fin[m[K’ has initializer but incomplete type
+     std::ifstream  fin[01;31m[K([m[K "/home/qyb/Desktop/sampleList.txt" , std::ios::ate );
+                       [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:116:10:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning 'void' [[01;31m[K-fpermissive[m[K]
+  return -[01;31m[K1[m[K;
+          [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:140:28:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+  cout <<"新入一行 : "; [01;31m[K<<[m[K line << endl;
+                            [01;31m[K^~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:270:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kis_ready[m[K’ was not declared in this scope
+  [01;31m[Kis_ready[m[K();
+  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:270:2:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kif_ready[m[K’
+  [01;36m[Kis_ready[m[K();
+  [01;36m[K^~~~~~~~[m[K
+  [32m[Kif_ready[m[K
+make[2]: *** [CMakeFiles/mydemo_node.dir/src/mydemo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mydemo_node.dir/all] Error 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [all] Error 2

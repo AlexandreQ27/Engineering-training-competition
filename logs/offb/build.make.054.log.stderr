@@ -1,0 +1,47 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:16:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kpos_cb[m[K’ was not declared in this scope
+             ("/mavros/local_position/pose", 10, [01;31m[Kpos_cb[m[K);
+                                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:16:49:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kfpos_t[m[K’
+             ("/mavros/local_position/pose", 10, [01;36m[Kpos_cb[m[K);
+                                                 [01;36m[K^~~~~~[m[K
+                                                 [32m[Kfpos_t[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:18:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_cb[m[K’ was not declared in this scope
+             ("/mavros/local_position/velocity_local", 10, [01;31m[Kvel_cb[m[K);
+                                                           [01;31m[K^~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:18:59:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kselect[m[K’
+             ("/mavros/local_position/velocity_local", 10, [01;36m[Kvel_cb[m[K);
+                                                           [01;36m[K^~~~~~[m[K
+                                                           [32m[Kselect[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:20:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_cb[m[K’ was not declared in this scope
+             ("/mavros/state", 10, [01;31m[Kstate_cb[m[K);
+                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:20:35:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstate_sub[m[K’
+             ("/mavros/state", 10, [01;36m[Kstate_cb[m[K);
+                                   [01;36m[K^~~~~~~~[m[K
+                                   [32m[Kstate_sub[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:31:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_drone[m[K’ was not declared in this scope
+     while(![01;31m[Kstate_drone[m[K.connected)
+            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:31:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstate_sub[m[K’
+     while(![01;36m[Kstate_drone[m[K.connected)
+            [01;36m[K^~~~~~~~~~~[m[K
+            [32m[Kstate_sub[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:36:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KOffboardControl Offb_[m[K’
+     OffboardControl [01;31m[KOffb_[m[K;
+                     [01;31m[K^~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:26:21:[m[K [01;36m[Knote: [m[K‘[01m[KOffboardControl Offb_[m[K’ previously declared here
+     OffboardControl [01;36m[KOffb_[m[K;
+                     [01;36m[K^~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:37:19:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kros::Rate rate[m[K’
+     ros::Rate rate[01;31m[K([m[K20.0);
+                   [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:21:15:[m[K [01;36m[Knote: [m[K‘[01m[Kros::Rate rate[m[K’ previously declared here
+     ros::Rate [01;36m[Krate[m[K(20.0);
+               [01;36m[K^~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/stay_high.cpp:41:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kpos_drone[m[K’ was not declared in this scope
+         stay_pos[0] = [01;31m[Kpos_drone[m[K[0];
+                       [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/stay_high_node.dir/src/stay_high.cpp.o] Error 1
+make[1]: *** [CMakeFiles/stay_high_node.dir/all] Error 2
+make: *** [all] Error 2

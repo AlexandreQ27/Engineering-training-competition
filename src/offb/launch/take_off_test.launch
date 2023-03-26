@@ -1,0 +1,13 @@
+<launch>
+
+<node  name = "send_info_node" pkg = "offb" type = "send_info_node" output = "screen"> </node>
+
+<node name="takeoff" pkg="offb" type="takeoff_node" output="screen" launch-prefix="gnome-terminal --window --"> 
+	<param name="desire_push" type="double" value="100.0"/>	
+</node>
+
+<node  name = "showinfo_node" pkg = "offb" type = "showinfo_node" output = "screen" launch-prefix="gnome-terminal --window --"> </node>
+
+<node  name = "set_mode_node" pkg = "offb" type = "set_mode_node" output = "screen" launch-prefix="gnome-terminal --window --"> </node>
+
+</launch>

@@ -1,0 +1,10 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:331:15:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid change_high(int, double)[m[K’
+  change_high(i[01;31m[K)[m[K;
+               [01;31m[K^[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:119:6:[m[K [01;36m[Knote: [m[Kdeclared here
+ void [01;36m[Kchange_high[m[K(int i,double scan_high)
+      [01;36m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/mydemo_node.dir/src/mydemo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mydemo_node.dir/all] Error 2
+make: *** [all] Error 2

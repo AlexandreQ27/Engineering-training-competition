@@ -1,0 +1,24 @@
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:8:[m[K [01;31m[Kerror: [m[Kno macro name given in #ifndef directive
+ #ifndef
+        [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/servo_control.cpp:3:0[m[K:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:15:8:[m[K [01;31m[Kerror: [m[Kno macro name given in #ifndef directive
+ #ifndef
+        [01;31m[K^[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:1:0[m[K:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:[m[K In member function ‘[01m[Kvoid OffboardControl::send_attitude_setpoint(const Vector3d&, float)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:216:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kpi[m[K’ was not declared in this scope
+     temp_att[0] = _AttitudeReference[0]/(180/[01;31m[Kpi[m[K);
+                                              [01;31m[K^~[m[K
+In file included from [01m[K/home/qyb/catkin_ws/src/offb/src/servo_control.cpp:3:0[m[K:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:[m[K In member function ‘[01m[Kvoid OffboardControl::send_attitude_setpoint(const Vector3d&, float)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/include/offboard_control.h:216:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kpi[m[K’ was not declared in this scope
+     temp_att[0] = _AttitudeReference[0]/(180/[01;31m[Kpi[m[K);
+                                              [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/mydemo_node.dir/src/mydemo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mydemo_node.dir/all] Error 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/servo_control_node.dir/src/servo_control.cpp.o] Error 1
+make[1]: *** [CMakeFiles/servo_control_node.dir/all] Error 2
+make: *** [all] Error 2

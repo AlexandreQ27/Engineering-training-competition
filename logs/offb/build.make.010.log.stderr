@@ -1,0 +1,7 @@
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/mydemo.cpp:251:29:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kstate_drone.mavros_msgs::State_<std::allocator<void> >::mode.std::__cxx11::basic_string<char>::operator=(((int)((char)((((const char*)"OFFBOARD") != 0) && (((int)state_drone.mavros_msgs::State_<std::allocator<void> >::armed) == 0)))))[m[K’ from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kbool[m[K’
+      while([01;31m[Kstate_drone.mode = "OFFBOARD" && !state_drone.armed[m[K)
+            [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/mydemo_node.dir/src/mydemo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mydemo_node.dir/all] Error 2
+make: *** [all] Error 2

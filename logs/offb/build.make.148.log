@@ -1,0 +1,272 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/qyb/catkin_ws/devel/.private/offb
+-- Using CMAKE_PREFIX_PATH: /home/qyb/catkin_ws/devel;/opt/ros/melodic
+-- This workspace overlays: /home/qyb/catkin_ws/devel;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/qyb/catkin_ws/build/offb/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- offb: 1 messages, 0 services
+-- Configuring done
+CMake Warning (dev) at CMakeLists.txt:86 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "offb_msgs_gencpp" of target "showinfo_node" does not
+  exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/qyb/catkin_ws/build/offb
+[35m[1mScanning dependencies of target servo_control_node[0m
+[35m[1mScanning dependencies of target multi_input_node[0m
+[  3%] [32mBuilding CXX object CMakeFiles/servo_control_node.dir/src/servo_control.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/multi_input_node.dir/src/multi_input.cpp.o[0m
+[  9%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/offb/lib/offb/multi_input_node[0m
+[  9%] Built target multi_input_node
+[35m[1mScanning dependencies of target test_node[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test.cpp.o[0m
+[ 15%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/offb/lib/offb/servo_control_node[0m
+[ 15%] Built target servo_control_node
+[35m[1mScanning dependencies of target set_mode_node[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/set_mode_node.dir/src/set_mode.cpp.o[0m
+[ 21%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/offb/lib/offb/test_node[0m
+[ 21%] Built target test_node
+[35m[1mScanning dependencies of target node_flyput_node[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/node_flyput_node.dir/src/node_flyput.cpp.o[0m
+[ 27%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/offb/lib/offb/set_mode_node[0m
+[ 27%] Built target set_mode_node
+[35m[1mScanning dependencies of target send_info_node[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/send_info_node.dir/src/send_info.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/offb/lib/offb/node_flyput_node[0m
+[ 33%] Built target node_flyput_node
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_nodejs[0m
+[ 33%] Built target trajectory_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target offb_msgs_generate_messages_py[0m
+[ 33%] Built target offb_msgs_generate_messages_py
+[35m[1mScanning dependencies of target offb_msgs_generate_messages_nodejs[0m
+[ 33%] Built target offb_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target offb_msgs_generate_messages_lisp[0m
+[ 33%] Built target offb_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target offb_msgs_generate_messages_eus[0m
+[ 33%] Built target offb_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[ 33%] Built target std_srvs_generate_messages_nodejs
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_nodejs[0m
+[ 33%] Built target diagnostic_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_nodejs[0m
+[ 33%] Built target mavros_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_lisp[0m
+[ 33%] Built target diagnostic_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[ 33%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[ 33%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[ 33%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[ 33%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_py[0m
+[ 33%] Built target diagnostic_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[ 33%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_py[0m
+[ 33%] Built target geographic_msgs_generate_messages_py
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_eus[0m
+[ 33%] Built target uuid_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[ 33%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[ 33%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[ 33%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[ 33%] Built target _catkin_empty_exported_target
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_eus[0m
+[ 33%] Built target diagnostic_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[ 33%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[ 33%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_lisp[0m
+[ 33%] Built target uuid_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[ 33%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[ 33%] Built target nav_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[ 33%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[ 33%] Built target std_srvs_generate_messages_eus
+[ 36%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/offb/lib/offb/send_info_node[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[ 36%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[ 36%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[ 36%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[ 36%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[ 36%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[ 36%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[ 36%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_eus[0m
+[ 36%] Built target trajectory_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[ 36%] Built target rosgraph_msgs_generate_messages_cpp
+[ 36%] Built target send_info_node
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[ 36%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[ 36%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_py[0m
+[ 36%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[ 36%] Built target trajectory_msgs_generate_messages_py
+[ 36%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_cpp[0m
+[ 36%] Built target geographic_msgs_generate_messages_lisp
+[ 36%] Built target geographic_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[ 36%] Built target geographic_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geographic_msgs_generate_messages_nodejs[0m
+[ 36%] Built target std_srvs_generate_messages_py
+[ 36%] Built target geographic_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[ 36%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_cpp[0m
+[ 36%] Built target uuid_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_nodejs[0m
+[ 36%] Built target uuid_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target offb_msgs_generate_messages_cpp[0m
+[ 36%] Built target offb_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target uuid_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[ 36%] Built target uuid_msgs_generate_messages_py
+[ 36%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_lisp[0m
+[ 36%] Built target mavros_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_cpp[0m
+[ 36%] Built target mavros_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_cpp[0m
+[ 36%] Built target trajectory_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_eus[0m
+[ 36%] Built target mavros_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[ 36%] Built target sensor_msgs_generate_messages_lisp
+[ 36%] Built target nav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target mavros_msgs_generate_messages_py[0m
+[ 36%] Built target mavros_msgs_generate_messages_py
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[ 36%] Built target nav_msgs_generate_messages_lisp
+[ 36%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[ 36%] Built target std_srvs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[ 36%] Built target roscpp_generate_messages_eus
+[ 36%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[ 36%] Built target actionlib_msgs_generate_messages_eus
+[ 36%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[ 36%] Built target diagnostic_msgs_generate_messages_cpp
+[ 36%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[ 36%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[ 36%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[ 36%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[ 36%] Built target nav_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[ 36%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[ 36%] Built target nav_msgs_generate_messages_py
+[ 36%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[ 36%] Built target actionlib_generate_messages_py
+[ 36%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[ 36%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target trajectory_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target _offb_generate_messages_check_deps_Circle[0m
+[ 36%] Built target trajectory_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target node_flyput_fixed_node[0m
+[ 36%] Built target _offb_generate_messages_check_deps_Circle
+[35m[1mScanning dependencies of target cycle_detect_new_node[0m
+make[2]: 警告：文件“/home/qyb/catkin_ws/src/offb/src/node_flyput_fixed.cpp”的修改时间在未来 20390 秒后
+[ 39%] [32mBuilding CXX object CMakeFiles/node_flyput_fixed_node.dir/src/node_flyput_fixed.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/cycle_detect_new_node.dir/src/cycle_detect_new.cpp.o[0m
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:[m[K In function ‘[01m[Kvoid process_image(const ImageConstPtr&)[m[K’:
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:76:45:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(M.cv::Moments::m10 / M.cv::Moments::m00)[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+                 min_radius_center = { [01;35m[KM.m10 / M.m00[m[K, M.m01 / M.m00 };
+                                       [01;35m[K~~~~~~^~~~~~~[m[K
+[01m[K/home/qyb/catkin_ws/src/offb/src/cycle_detect_new.cpp:76:60:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(M.cv::Moments::m01 / M.cv::Moments::m00)[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kint[m[K’ inside { } [[01;35m[K-Wnarrowing[m[K]
+                 min_radius_center = { M.m10 / M.m00, [01;35m[KM.m01 / M.m00[m[K };
+                                                      [01;35m[K~~~~~~^~~~~~~[m[K
+[ 45%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/offb/lib/offb/node_flyput_fixed_node[0m
+make[2]: 警告：检测到时钟错误。您的创建可能是不完整的。
+[ 45%] Built target node_flyput_fixed_node
+[35m[1mScanning dependencies of target offb_node[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/offb_node.dir/src/offb.cpp.o[0m
+[ 51%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/offb/lib/offb/cycle_detect_new_node[0m
+/usr/bin/ld: warning: libopencv_imgproc.so.3.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0, may conflict with libopencv_imgproc.so.3.4
+/usr/bin/ld: warning: libopencv_core.so.3.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0, may conflict with libopencv_core.so.3.4
+[ 51%] Built target cycle_detect_new_node
+[35m[1mScanning dependencies of target com_node[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/com_node.dir/src/com.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/offb/lib/offb/offb_node[0m
+[ 57%] Built target offb_node
+[35m[1mScanning dependencies of target communicate_node[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/communicate_node.dir/src/communicate.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/offb/lib/offb/com_node[0m
+[ 66%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/offb/lib/offb/communicate_node[0m
+[ 66%] Built target communicate_node
+[35m[1mScanning dependencies of target H_detect_node[0m
+[ 66%] Built target com_node
+[35m[1mScanning dependencies of target showinfo_node[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/H_detect_node.dir/src/H_detect.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/showinfo_node.dir/src/showinfo.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/offb/lib/offb/showinfo_node[0m
+[ 75%] Built target showinfo_node
+[35m[1mScanning dependencies of target offb_generate_messages_nodejs[0m
+[ 78%] Built target offb_generate_messages_nodejs
+[35m[1mScanning dependencies of target offb_generate_messages_py[0m
+[ 84%] Built target offb_generate_messages_py
+[35m[1mScanning dependencies of target offb_generate_messages_lisp[0m
+[ 87%] Built target offb_generate_messages_lisp
+[35m[1mScanning dependencies of target offb_generate_messages_eus[0m
+[ 93%] Built target offb_generate_messages_eus
+[35m[1mScanning dependencies of target offb_generate_messages_cpp[0m
+[ 96%] Built target offb_generate_messages_cpp
+[35m[1mScanning dependencies of target offb_generate_messages[0m
+[ 96%] Built target offb_generate_messages
+[100%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/offb/lib/offb/H_detect_node[0m
+/usr/bin/ld: warning: libopencv_imgproc.so.3.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0, may conflict with libopencv_imgproc.so.3.4
+/usr/bin/ld: warning: libopencv_core.so.3.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0, may conflict with libopencv_core.so.3.4
+/usr/bin/ld: warning: libopencv_imgcodecs.so.3.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0, may conflict with libopencv_imgcodecs.so.3.4
+[100%] Built target H_detect_node

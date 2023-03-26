@@ -1,0 +1,8 @@
+prefix=/home/qyb/catkin_ws/devel/.private/offb_msgs
+
+Name: offb_msgs
+Description: Description of offb_msgs
+Version: 0.0.0
+Cflags: -I/home/qyb/catkin_ws/devel/.private/offb_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime actionlib_msgs geometry_msgs sensor_msgs message_runtime std_msgs

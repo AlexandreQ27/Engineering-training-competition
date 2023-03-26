@@ -1,0 +1,10 @@
+CMakeFiles/datasave_node.dir/src/datasave.cpp.o：在函数‘main’中：
+datasave.cpp:(.text+0x31ef)：对‘image_transport::ImageTransport::ImageTransport(ros::NodeHandle const&)’未定义的引用
+datasave.cpp:(.text+0x3243)：对‘image_transport::ImageTransport::advertise(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned int, bool)’未定义的引用
+datasave.cpp:(.text+0x34a4)：对‘image_transport::Publisher::publish(boost::shared_ptr<sensor_msgs::Image_<std::allocator<void> > const> const&) const’未定义的引用
+datasave.cpp:(.text+0x3601)：对‘image_transport::ImageTransport::~ImageTransport()’未定义的引用
+datasave.cpp:(.text+0x3b0c)：对‘image_transport::ImageTransport::~ImageTransport()’未定义的引用
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/qyb/catkin_ws/devel/.private/offbopencv/lib/offbopencv/datasave_node] Error 1
+make[1]: *** [CMakeFiles/datasave_node.dir/all] Error 2
+make: *** [all] Error 2

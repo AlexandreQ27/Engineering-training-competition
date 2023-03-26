@@ -1,0 +1,1 @@
+/home/qyb/catkin_ws/devel/.private/px4_ui/lib/pkgconfig/px4_ui.pc

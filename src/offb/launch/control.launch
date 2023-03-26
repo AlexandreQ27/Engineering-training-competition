@@ -1,0 +1,14 @@
+<launch>
+	<!--                            无人机飞行中的期望高度                                           -->
+        <arg name="desire_z" default="2"/>
+        <arg name="change" default="0.02"/>
+
+        <node  name = "send_info_node" pkg = "offb" type = "send_info_node" output = "screen"> </node>
+        <node  name = "com_node" pkg = "offb" type = "com_node" output = "screen"  launch-prefix="gnome-terminal --window --">
+        <param name="desire_z" value="$(arg desire_z)"/>
+        <param name="change" value="$(arg change)"/>
+         </node>
+        <node  name = "showinfo_node" pkg = "offb" type = "showinfo_node" output = "screen" launch-prefix="gnome-terminal --window --"> </node>
+        <node  name = "set_mode_node" pkg = "offb" type = "set_mode_node" output = "screen" launch-prefix="gnome-terminal --window --"> </node>
+          <node  name = "test_node" pkg = "offb" type = "test_node" output = "screen" launch-prefix="gnome-terminal --window --"> </node>
+</launch>

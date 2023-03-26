@@ -1,0 +1,15 @@
+[  9%] [34m[1mGenerating include/px4_ui/moc_qnode.cxx[0m
+[ 18%] [34m[1mGenerating qrc_images.cxx[0m
+[ 27%] [34m[1mGenerating ui_main_window.h[0m
+/home/qyb/catkin_ws/src/px4_ui/ui/main_window.ui: Warning: The name 'frame_3' (QFrame) is already in use, defaulting to 'frame_31'.
+/home/qyb/catkin_ws/src/px4_ui/ui/main_window.ui: Warning: The name 'frame_4' (QFrame) is already in use, defaulting to 'frame_41'.
+[ 36%] [34m[1mGenerating include/px4_ui/moc_main_window.cxx[0m
+[35m[1mScanning dependencies of target px4_ui[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/px4_ui.dir/src/main.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/px4_ui.dir/src/main_window.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/px4_ui.dir/src/qnode.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/px4_ui.dir/qrc_images.cxx.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/px4_ui.dir/include/px4_ui/moc_main_window.cxx.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/px4_ui.dir/include/px4_ui/moc_qnode.cxx.o[0m
+[100%] [32m[1mLinking CXX executable /home/qyb/catkin_ws/devel/.private/px4_ui/lib/px4_ui/px4_ui[0m
+[100%] Built target px4_ui
